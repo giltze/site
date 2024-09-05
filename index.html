@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>סוכנות נסיעות - גיל צמח</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        header {
+            background: linear-gradient(to right, #ffcc00, #ff9900);
+            color: #fff;
+            text-align: center;
+            padding: 40px 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        header h1 {
+            font-size: 3.5em;
+            margin: 0;
+            font-weight: bold;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .destination {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+        .destination:hover {
+            transform: scale(1.05);
+        }
+        .destination img {
+            width: 100%;
+            border-radius: 15px;
+            transition: opacity 0.3s ease;
+        }
+        .destination img:hover {
+            opacity: 0.8;
+        }
+        .destination h2 {
+            color: #ff9900;
+            font-size: 2em;
+            margin-top: 0;
+        }
+        .destination p {
+            font-size: 1.1em;
+        }
+        .destination a {
+            display: block;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #ff9900;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .destination a:hover {
+            background-color: #e68a00;
+        }
+        .insurance-info {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+        }
+        .insurance-info h2 {
+            color: #ff9900;
+            font-size: 2.5em;
+            margin-top: 0;
+        }
+        .insurance-info p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        .insurance-info a {
+            display: inline-block;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #ff9900;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .insurance-info a:hover {
+            background-color: #e68a00;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        footer a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<!-- דף הנחיתה של סוכנות הנסיעות -->
+<header>
+    <h1>ברוכים הבאים לסוכנות הנסיעות של גיל צמח!</h1>
+    <p>תאילנד מחכה לכם - ואנחנו כאן כדי לסדר הכל.</p>
+</header>
+
+<div class="container">
+    <div class="destination">
+        <h2>קוסמוי</h2>
+        <img src="https://via.placeholder.com/800x400?text=Kosamui+Beach" alt="Kosamui Beach">
+        <p>המלצה שלנו: מלון על קו המים עם בריכה פרטית!</p>
+        <a href="https://www.booking.com">הזמן עכשיו ב-Booking</a>
+        <a href="https://www.agoda.com">הזמן עכשיו ב-Agoda</a>
+    </div>
+
+    <div class="destination">
+        <h2>קופנגן</h2>
+        <img src="https://via.placeholder.com/800x400?text=Koh+Phangan+Beach" alt="Koh Phangan Beach">
+        <p>חוויות מסיבות חוף כמו שלא ראיתם!</p>
+        <a href="https://www.booking.com">הזמן עכשיו ב-Booking</a>
+        <a href="https://www.agoda.com">הזמן עכשיו ב-Agoda</a>
+    </div>
+
+    <div class="destination">
+        <h2>בנגקוק</h2>
+        <img src="https://via.placeholder.com/800x400?text=Bangkok+City" alt="Bangkok City">
+        <p>המלצה שלנו: מלון במרכז העיר קרוב לאטרקציות.</p>
+        <a href="https://www.booking.com">הזמן עכשיו ב-Booking</a>
+        <a href="https://www.agoda.com">הזמן עכשיו ב-Agoda</a>
+    </div>
+
+    <div class="destination">
+        <h2>קאו לק</h2>
+        <img src="https://via.placeholder.com/800x400?text=Khao+Lak+Beach" alt="Khao Lak Beach">
+        <p>המלצה שלנו: ריזורט משפחתי עם מתקנים לילדים.</p>
+        <a href="https://www.booking.com">הזמן עכשיו ב-Booking</a>
+        <a href="https://www.agoda.com">הזמן עכשיו ב-Agoda</a>
+    </div>
+
+    <div class="destination">
+        <h2>פוקט</h2>
+        <img src="https://via.placeholder.com/800x400?text=Phuket+Beach" alt="Phuket Beach">
+        <p>חופים קסומים ומלונות ברמה גבוהה.</p>
+        <a href="https://www.booking.com">הזמן עכשיו ב-Booking</a>
+        <a href="https://www.agoda.com">הזמן עכשיו ב-Agoda</a>
+    </div>
+
+    <div class="destination">
+        <h2>פאטייה</h2>
+        <img src="https://via.placeholder.com/800x400?text=Pattaya+City" alt="Pattaya City">
+        <p>המלצה שלנו: תתפנקו בריזורט יוקרתי בלב העיר.</p>
+        <a href="https://www.booking.com">הזמן עכשיו ב-Booking</a>
+        <a href="https://www.agoda.com">הזמן עכשיו ב-Agoda</a>
+    </div>
+</div>
+
+<!-- דף ביטוח נסיעות -->
+<div class="container">
+    <div class="insurance-info">
+        <h2>ביטוח נסיעות לחו"ל - הכי בטוח זה לנסוע בראש שקט!</h2>
+        <p>לא רק שהחופשה שלכם בתאילנד תהיה מושלמת, גם הביטוח נסיעות שלנו ישמור עליכם מכל צרה. רוצים חוויה בלי דאגות? קחו ביטוח נסיעות מקיף עם כיסוי רפואי מלא, פיצוי על מזוודות אבודות, ביטוח תאונות ועוד.</p>
+        <p>אצלנו בסוכנות גיל צמח, אנחנו מציעים ביטוח נסיעות במחירים מעולים, שירות מצוין, וכמובן – זמינות מלאה לכל שאלה.</p>
+        <a href="tel:+1234567890">לחצו כאן לשיחה ולקבלת הצעת מחיר</a>
+        <a href="https://wa.me/1234567890">שוחחו איתנו בווטסאפ</a>
+    </div>
+</div>
+
+<footer>
+    <p>© 2024 גיל צמח - כל הזכויות שמורות</p>
+</footer>
+
+</body>
+</html>
